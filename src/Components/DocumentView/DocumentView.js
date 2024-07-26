@@ -67,7 +67,8 @@ const AddDocument = () => {
     }
   };
 
-  const handleAddDocument = () => {
+  const handleAddDocument = (e) => {
+    e.preventDefault();
     if (!documentName.trim() || !description.trim() || !file) {
       toast.error("Please fill in all fields.");
       return;
