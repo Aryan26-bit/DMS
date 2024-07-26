@@ -1,4 +1,3 @@
-// store.js
 import { configureStore } from "@reduxjs/toolkit";
 import navbarReducer from "./../Slices/navbarComp/navbarSlice";
 import authReducer from "./../Slices/loginPage/loginSlice";

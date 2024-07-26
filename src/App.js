@@ -10,9 +10,8 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <Router>
-      <div style={{overflowX:"auto"}}>
+      <div style={{ overflowX: "auto" }}>
         <Navbar />
-
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/login" element={<Login />} />

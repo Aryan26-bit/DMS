@@ -1,4 +1,3 @@
-// features/documents/documentSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 import { initialDocumentState } from "./common";
 
